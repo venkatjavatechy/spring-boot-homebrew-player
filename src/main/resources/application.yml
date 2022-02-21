@@ -1,0 +1,8 @@
+homebrew:
+  formula:
+    api:
+      url: https://formulae.brew.sh/api/formula/
+      retry:
+        attempts: 3
+      backoff:
+        period: 2000
